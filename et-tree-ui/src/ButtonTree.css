@@ -1,0 +1,67 @@
+/* ButtonTree.css */
+
+.button-tree {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    animation: fadeIn 0.5s ease;
+  }
+  
+  /* Styles for regular buttons */
+  .button-tree button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: #0069d9;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .button-tree button:hover {
+    background-color: #0053aa;
+  }
+  
+  /* Styles for the tag button */
+  .button-tree .tag-button {
+    background-color: #28a745; /* Green background */
+  }
+  
+  .button-tree .tag-button:hover {
+    background-color: #218838;
+  }
+  
+  .icon {
+    font-size: 40px;
+    margin-bottom: 8px;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(15px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes buttonFadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  

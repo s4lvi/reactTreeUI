@@ -1,0 +1,33 @@
+/* EditableNode.css */
+.editable-node {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .node-header {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .node-header input {
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .node-header button {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  
+  .node-children {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .node-children > button {
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  

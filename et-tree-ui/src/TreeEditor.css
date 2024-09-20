@@ -1,0 +1,34 @@
+/* TreeEditor.css */
+.tree-editor {
+    animation: fadeIn 0.5s ease;
+  }
+  
+  .tree-editor h2 {
+    margin-bottom: 20px;
+  }
+  
+  .download-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0069d9;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .download-button:hover {
+    background-color: #0053aa;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(15px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

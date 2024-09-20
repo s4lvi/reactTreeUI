@@ -1,0 +1,74 @@
+/* EventForm.css */
+.event-form {
+    animation: fadeIn 0.5s ease;
+  }
+  
+  .event-form h3 {
+    margin-bottom: 10px;
+  }
+  
+  .event-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .event-form textarea {
+    resize: vertical;
+    min-height: 80px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  
+  .event-form .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .event-form .submit,
+  .event-form .navigate,
+  .event-form .cancel {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .event-form .submit {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .event-form .submit:hover {
+    background-color: #218838;
+  }
+  
+  .event-form .navigate {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  .event-form .navigate:hover {
+    background-color: #117a8b;
+  }
+  
+  .event-form .cancel {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .event-form .cancel:hover {
+    background-color: #c82333;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(15px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

@@ -1,0 +1,98 @@
+/* EventList.css */
+.event-list {
+    margin-top: 40px;
+    animation: fadeIn 0.5s ease;
+  }
+  
+  .event-list h2 {
+    margin-bottom: 20px;
+  }
+  
+  .event-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .event-list li {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-list .event-path {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .event-list .event-info p {
+    margin-bottom: 10px;
+  }
+  
+  .event-list .event-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .event-list .event-actions button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .event-list .event-actions button:hover {
+    opacity: 0.9;
+  }
+  
+  .event-list .event-actions button:first-child {
+    background-color: #ffc107;
+    color: #212529;
+  }
+  
+  .event-list .event-actions button:last-child {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .edit-form textarea {
+    width: 100%;
+    min-height: 60px;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .edit-form .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-form button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .edit-form button:first-child {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .edit-form button:last-child {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(15px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

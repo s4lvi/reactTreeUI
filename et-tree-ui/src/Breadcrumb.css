@@ -1,0 +1,19 @@
+/* Breadcrumb.css */
+.breadcrumb {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .breadcrumb span {
+    cursor: pointer;
+    color: #007bff;
+  }
+  
+  .breadcrumb span:hover {
+    text-decoration: underline;
+  }
+  
+  .breadcrumb .separator {
+    margin: 0 5px;
+  }
+  
